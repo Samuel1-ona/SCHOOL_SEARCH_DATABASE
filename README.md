@@ -43,3 +43,10 @@ CREATE TABLE school_search -- The table that contains all the school search data
  );
  
  ```
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ # OUTPUT OVERVIEW OF THE TABLE WITHOUT DATA
+ 
+ 
+ ![Structure ](https://github.com/Samuel1-ona/SCHOOL_SEARCH_DATABASE/assets/68438893/0fe3f9a7-c039-477a-9b7c-f93162486866)
+
