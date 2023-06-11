@@ -9,44 +9,26 @@ When using the website connected to the database, students can search through al
 # FIELDS DEFINITIONS
 
 * ``` School_name```: Contains all the school names.
-* ``` Country```:     Contains the target countries (Canada and the USA).
-* ``` Country_id```:  Contains all the contry postal code
 * ``` State```:       Contains all the state base on the country.
 * ``` City```:        Contains all the cites base on the country.
 * ``` Fields```:      Contains all the selected fields for each student.
+* ``` Degree``` :     Contains all the degress for each fields
 *  ```Department```:  Contains all the selected department base on the fields for each student.
 * ``` website_link```: Contains all the links to each school portals.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# CREATING OF DATABASE 
+# How to structure the Data
 
-```CREATE DATABASE school_search_database;  -- Creating the database for the school search data```
 
-# CREATING OF TABLE
+* Remove all blanks 
+* Seperate the fields fromm the degree  
+* Check for spelling errors
 
-```
-CREATE TABLE school_search -- The table that contains all the school search data 
-
-(
- school_name CHAR(100) NOT NULL,
- country CHAR(50) NOT NULL,
- country_id INT NOT NULL,
- state CHAR(50) NOT NULL,
- city CHAR(50) NOT NULL,
- field CHAR(50) NOT NULL,
- department CHAR(50) NOT NULL,
- website_link VARCHAR(512) NOT NULL,   -- NOT NULL prevent any NULL values  from being inserted
- 
- PRIMARY KEY (field, department)   -- The PRIMARY KEY automatically prevent the insertion of duplicate values in the id column
- 
- );
- 
- ```
  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  # OUTPUT OVERVIEW OF THE TABLE WITHOUT DATA
  
  
- ![Structure ](https://github.com/Samuel1-ona/SCHOOL_SEARCH_DATABASE/assets/68438893/0fe3f9a7-c039-477a-9b7c-f93162486866)
-
+![Screenshot (634)](https://github.com/Samuel1-ona/SCHOOL_SEARCH_DATABASE/assets/68438893/8404c3f5-b75d-448f-bd09-1ed1acca90b0)
+![Screenshot (635)](https://github.com/Samuel1-ona/SCHOOL_SEARCH_DATABASE/assets/68438893/16c7a9da-3e73-4ddc-a569-6a50e08c3726)
